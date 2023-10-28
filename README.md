@@ -30,3 +30,16 @@ The project file
 
 You can view an example of how the project works in the `exaple` folder
 
+### JSON file setup
+To configure the json file you must follow the following pattern:
+```json
+{
+    "language":{
+     "element id":"Custom text",
+     "element id":"Another personalized text"
+    }
+}
+```
+> ⚠️ You can use as many languages ​​as you want, as long as you add it to the select!
+
+
