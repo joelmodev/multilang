@@ -21,7 +21,7 @@ The selection menu
 Your file with translations:
 > Note: It is necessary to enter the correct path in the src
  ```html
-  <script id="json-file" src="assets/json/lin.json"></script>
+  <script id="json-file" src="path/to/json/file"></script>
 ```
 The project file
 ```html
