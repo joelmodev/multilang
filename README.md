@@ -1,10 +1,16 @@
 # Multilingual Application in JS
+## Installing
+Installing this script is simple and easy, just add the tag below and follow the next steps
+```html
+  <script src="https://cdn.jsdelivr.net/gh/niccoti/multilang@main/multilang.js">
+```
+
 
 ## How to use?
  This js script that allows you to create websites with more than one language in an easy and simple way, has just 3 steps to start working, see:
 #### 1. Configuring the html
 To configure this project you must include the following items in your html:
-- The selection menu
+The selection menu
  ```html
 <select id="lang" onchange="cl()">
     <option value="id">Seu Idioma</option>
@@ -12,8 +18,15 @@ To configure this project you must include the following items in your html:
     <option value="id3">Su Idioma</option>
   </select>
 ```
-- Your file with translations:
+Your file with translations:
+> Note: It is necessary to enter the correct path in the src
  ```html
   <script id="json-file" src="assets/json/lin.json"></script>
 ```
+The project file
+```html
+  <script src="https://cdn.jsdelivr.net/gh/niccoti/multilang@main/multilang.js">
+```
+
+You can view an example of how the project works in the `exaple` folder
 
