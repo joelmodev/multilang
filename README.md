@@ -2,7 +2,7 @@
 ## Installing
 Installing this script is simple and easy, just add the tag below and follow the next steps
 ```html
-  <script src="https://cdn.jsdelivr.net/gh/niccoti/multilang@main/multilang.js">
+  <script src="https://cdn.jsdelivr.net/gh/joelmodev/multilang@main/multilang.js">
 ```
 
 
@@ -25,7 +25,7 @@ Your file with translations:
 ```
 The project file
 ```html
-  <script src="https://cdn.jsdelivr.net/gh/niccoti/multilang@main/multilang.js">
+  <script src="https://cdn.jsdelivr.net/gh/joelmodev/multilang@main/multilang.js">
 ```
 
 You can view an example of how the project works in the `exaple` folder
