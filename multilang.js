@@ -1,4 +1,9 @@
-cl()
+window.addEventListener('load', (event) => {
+  cl()
+})
+document.getElementById('lang-select').addEventListener('change', (event) => {
+  cl()
+})
 function cl() {
   const script = document.querySelector("script");
   const langValue = document.querySelector("select").value;
@@ -16,6 +21,3 @@ function cl() {
       }
     });
 }
-
-
-
